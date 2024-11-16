@@ -17,8 +17,8 @@
     },
     "vscode": {
       "extensions": [
-        "ms-python.python",
-        "amazonwebservices.aws-toolkit-vscode"
+        "ms-python.python"
+        // ,"amazonwebservices.aws-toolkit-vscode"
       ]
     }
   },
@@ -28,5 +28,10 @@
       "onAutoForward": "openPreview"
     }
   },
-  "forwardPorts": [8000]
+  "forwardPorts": [
+    8000
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {}
+  }
 }
