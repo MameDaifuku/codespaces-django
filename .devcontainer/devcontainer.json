@@ -33,6 +33,6 @@
   ],
   "features": {
     "ghcr.io/devcontainers/features/aws-cli:1": {}
-  },
-  "build":{"dockerfile":"Dockerfile"}
+  }
+  // ,"build":{"dockerfile":"Dockerfile"}
 }
