@@ -17,8 +17,8 @@
     },
     "vscode": {
       "extensions": [
-        "ms-python.python"
-        // ,"amazonwebservices.aws-toolkit-vscode"
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
       ]
     }
   },
@@ -33,5 +33,6 @@
   ],
   "features": {
     "ghcr.io/devcontainers/features/aws-cli:1": {}
-  }
+  },
+  "build":{"dockerfile":"Dockerfile"}
 }
